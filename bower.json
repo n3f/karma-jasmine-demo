@@ -1,0 +1,34 @@
+{
+  "name": "karma-jasmine-demo",
+  "version": "0.0.1",
+  "authors": [
+    "n3f <karma@n3f.com>"
+  ],
+  "description": "Quick demonstration of Karma & Jasmine",
+  "main": "test-main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "karma",
+    "jasmine"
+  ],
+  "license": "MIT",
+  "homepage": "n3f.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "jasmine-jquery": "1.7",
+    "require-handlebars-plugin": "~0.8.0",
+    "requirejs": "~2.1.11",
+    "sinon": "~1.9.1",
+    "jquery": "~2.1.1"
+  }
+}
